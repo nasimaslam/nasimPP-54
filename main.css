@@ -1,0 +1,130 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+                *{
+                    padding:0px;
+                    margin:0px;
+                    box-sizing: border-box;
+                }
+                    body{
+                        font-family: 'Poppins';
+                        background-image: linear-gradient(to bottom right, #f12711 0%, #f58e19 40%);
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        height:150vh;
+                    }
+                    .main-data{
+                        width:450px;
+                        height:100vh;
+                        margin:auto;
+                        text-align: center;
+                        padding-top:100px;
+                        
+                    }
+                    .container{
+                        display: flex;
+                        align-items: center;
+                        margin-bottom:100px;
+
+                    }
+                    #input {
+                        width: 200px;
+        height: 39px;
+        border: none;
+        outline: none;
+        font-family: 'Poppins';
+        padding-top: 10px;
+        padding-bottom: 8px;
+        padding-left: 5px;
+    }
+#main_btn {
+padding: 0px 12px;
+background: white;
+border: none;
+outline: none;
+font-family: 'Poppins';
+color: #f5af19;
+font-size: 18px;
+padding-bottom: 11px;
+padding-top: 9px;
+  }
+ #main_btn:hover{
+background:#f5af19;
+ color:white;
+}
+ #select_me {
+-moz-user-select: all;
+-webkit-user-select: all;
+-ms-user-select: all;
+user-select: all;
+margin-left: 35px;
+padding: 11px 19px;
+border: none;
+outline: none;
+ color: #f5af19;
+}
+select {
+-webkit-appearance: none;
+-moz-appearance: none; 
+background-image: url("data:image/svg+xml;utf8,<svg fill='orange'  height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+background-repeat: no-repeat;
+background-position-x: 100%;
+background-position-y: 5px;
+border: 1px solid #dfdfdf;
+margin-right: 2rem;
+padding: 1rem;
+padding-right: 2rem;
+position:relative;
+z-index: 11;
+}
+select,option{
+font-family: 'Poppins';
+font-weight: 500;
+}
+.main-data{
+margin-bottom:50px;
+}
+li {
+display: flex;
+justify-content: space-between;
+background: white;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 10px;
+padding-left: 10px;
+transition:all 1s ease-in-out;
+}
+.check {
+ padding: 10px;
+ font-size: 13px;
+background: none;
+outline: none;
+border: none;
+background: #27ae60;
+ color: #fff;
+padding: 15px 15px;          
+}
+.trush{
+padding: 10px;
+font-size: 13px;
+background: none;
+outline: none;
+border: none;
+background: #e74c3c;
+color: #fff;
+padding: 15px 15px;
+}
+.cross{
+text-decoration: line-through;
+background: #27ae60;
+padding: 0px 37px;
+color: white;
+transition: 0.5s;
+}
+
+.deleted{
+transform:translateY(8rem) rotateZ(20deg);
+opacity: 0;
+}
+
+.none{
+ display: none!important;
+}
